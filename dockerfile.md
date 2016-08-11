@@ -62,9 +62,11 @@ INSTRUCTION avg
 
 
 
-
-
-
+## 创建
+```bash
+# 在当前目录通过 docker 创建 imageName 的镜像
+docker build -t <imageName>:<tag> .
+```
 
 
 

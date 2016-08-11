@@ -33,6 +33,22 @@ Hello World
 
 ```
 
+##### 启动参数
+
+> `--env` 环境变量  
+
+```bash
+docker run --env <key>=<value>
+```
+
+> `--rm` 容器完成后自动删除
+
+```bash
+docker run --rm
+```
+
+
+
 ### 查看容器
 
 - docker ps
